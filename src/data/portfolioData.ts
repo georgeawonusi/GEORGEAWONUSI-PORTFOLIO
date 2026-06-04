@@ -1,0 +1,221 @@
+import { Project, Skill, TimelineItem } from '../types';
+
+export const engineerProfile = {
+  name: 'GEORGE AWONUSI',
+  title: 'Founder of ZALLY ENTERPRISES & Full-Stack Web Developer',
+  tagline: 'Orchestrating multi-sector business systems and resilient web solutions.',
+  bio: 'I am an entrepreneurial full-stack web developer and systems analyst, managing ZALLY ENTERPRISES. We specialize in robust web development, modern digital platforms, real estate broker networks, precision agriculture operations, high-impact entertainment & artist promotion, premium gourmet coffee production, aesthetics/makeup workflows, and clean logistics-driven laundry systems. I merge technical software engineering with varied commercial operations to drive scalability, efficiency, and high fidelity.',
+  stats: [
+    { label: 'Active Enterprise Sectors', value: '7' },
+    { label: 'Satisfied Client Accounts', value: '150+' },
+    { label: 'Corporate Tech Projects', value: '12+' },
+    { label: 'Logistics SLA Rating', value: '99.8%' },
+  ],
+  github: 'https://github.com/georgeawonusi',
+  linkedin: 'https://linkedin.com/in/georgeaawonusi',
+  instagram: 'https://instagram.com/georgeaawonusi',
+  tiktok: 'https://tiktok.com/@georgeawonusi',
+  twitter: 'https://x.com/awonusigeorge',
+  whatsapp: 'https://wa.me/2348133980427',
+  phone: '+2348133980427',
+  address: '21 Okerede Street Odode Idanre Ondo State Nigeria 340108',
+  brandName: 'ZALLY ENTERPRISES',
+};
+
+export const skillsData: Skill[] = [
+  // Languages
+  { name: 'HTML5 / CSS3 / JavaScript', level: 95, category: 'Languages', yearsOfExp: 4 },
+  { name: 'TypeScript & React.js', level: 90, category: 'Languages', yearsOfExp: 3 },
+  { name: 'Python (Agri-analytics & Scripts)', level: 82, category: 'Languages', yearsOfExp: 2 },
+  { name: 'SQL (PostgreSQL/MySQL)', level: 85, category: 'Languages', yearsOfExp: 3 },
+
+  // Backend Systems
+  { name: 'Node.js & Express.js APIs', level: 90, category: 'Backend Systems', yearsOfExp: 3 },
+  { name: 'Multi-Tenant Booking Regimes', level: 88, category: 'Backend Systems', yearsOfExp: 2 },
+  { name: 'WhatsApp & SMS Gateway Relays', level: 87, category: 'Backend Systems', yearsOfExp: 2 },
+  { name: 'Secure Payment & Checkout Flows', level: 85, category: 'Backend Systems', yearsOfExp: 2 },
+
+  // Cloud & DevOps
+  { name: 'Docker / Container Services', level: 80, category: 'Cloud & DevOps', yearsOfExp: 2 },
+  { name: 'Nginx Reverse Proxies & Hosting', level: 84, category: 'Cloud & DevOps', yearsOfExp: 2 },
+  { name: 'Logistics Routing Algorithms', level: 86, category: 'Cloud & DevOps', yearsOfExp: 2 },
+  { name: 'Git & Command-Line Interfaces', level: 92, category: 'Cloud & DevOps', yearsOfExp: 4 },
+
+  // Frontend & Tools
+  { name: 'Tailwind CSS & Modern UI Motion', level: 95, category: 'Frontend & Tools', yearsOfExp: 3 },
+  { name: 'Mobile-Responsive Shell Layouts', level: 96, category: 'Frontend & Tools', yearsOfExp: 4 },
+  { name: 'Recharts & Business BI Analytics', level: 88, category: 'Frontend & Tools', yearsOfExp: 2 },
+  { name: 'Aesthetic Brand Curation', level: 94, category: 'Frontend & Tools', yearsOfExp: 3 },
+];
+
+export const projectsData: Project[] = [
+  {
+    id: 'zally-web-labs',
+    title: 'Zally Web Labs (Web Development)',
+    description: 'A design and deployment arm built underneath ZALLY ENTERPRISES, engineering highly responsive React/Vite interfaces, modern backend databases, and robust payment integrations for international clients.',
+    category: 'Full-Stack',
+    tags: ['React.js', 'Vite', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    metrics: 'Achieved 48ms client-side page transitions globally',
+    architectureDetails: 'Engineered as lightweight modular Single Page Applications, optimized utilizing code-splitting mechanisms and compiled via esbuild pipelines to ensure zero bundle drag.',
+    features: [
+      'Stellar mobile-responsive user interface with high-contrast palette rules.',
+      'Asynchronous registration calendars protecting state databases from duplication.',
+      'Polished dark/light layout variations fitting modern enterprise aesthetics.',
+      'API webhook proxies safeguarding third-party service credentials completely.',
+    ],
+    thumbnailColor: 'from-indigo-650 to-indigo-950',
+    githubUrl: 'https://github.com/georgeawonusi/zally-web-labs',
+  },
+  {
+    id: 'zally-promo-engine',
+    title: 'Zally Media (Artist Promotion & Entertainment)',
+    description: 'An engagement dashboard and analytical tracking ecosystem executing promo algorithms, tracking streaming impressions across digital store platforms, and distributing promotional campaigns for independent musicians.',
+    category: 'Systems & APIs',
+    tags: ['Audience Algorithm', 'Social APIs', 'Asset CDN', 'Promotions'],
+    metrics: 'Boosted visual impressions and listener track counts by 320%',
+    architectureDetails: 'Uses lightweight message loops and content deliverability layers, optimizing album and artist visual loading times for low-bandwidth networks.',
+    features: [
+      'Promotional tracking charts auditing campaigns across major streaming networks.',
+      'Integrated registration pages for independent artists seeking promotion assistance.',
+      'Custom marketing assets delivery pipeline via optimized regional content networks.',
+      'Automated email dispatch flows keeping active rosters in sync with press updates.',
+    ],
+    thumbnailColor: 'from-fuchsia-600 to-indigo-950',
+    githubUrl: 'https://github.com/georgeawonusi/zally-promo-engine',
+  },
+  {
+    id: 'zally-agro-coffee',
+    title: 'Zally Premium Coffee Production',
+    description: 'An advanced agribusiness tracker mapping farm-to-cup coffee processing schedules, crop moisture thresholds, roasting logistical pipelines, and wholesale inventory records.',
+    category: 'AI & Data Engineering',
+    tags: ['Agri-Logs', 'Moisture Sensors', 'Logistics API', 'Inventory Sync'],
+    metrics: 'Maintained 0% inventory drift across 15 global shipping batches',
+    architectureDetails: 'A data pipeline tracking environmental values, moisture rates, drying levels, and roasting indexes with robust analytics engines and alerts triggers.',
+    features: [
+      'Gourmet roasting-grade calculator utilizing dynamic ambient temperature tables.',
+      'Inventory forecasting module preventing stock-outs during major harvest sessions.',
+      'Direct producer-to-retailer tracking links preserving batch records of premium Idanre beans.',
+      'Integrated e-commerce portal framework with real-time stock thresholds verification.',
+    ],
+    thumbnailColor: 'from-amber-700 to-indigo-950',
+  },
+  {
+    id: 'zally-properties',
+    title: 'Zally Properties (Real Estate Management)',
+    description: 'A comprehensive multi-listing broker platform designed to list property assets, automate tenant lease renewals, manage physical inspections checklists, and coordinate maintenance work queues.',
+    category: 'Full-Stack',
+    tags: ['Rentals MLS', 'Lease Track', 'Ticketing', 'Client CRM'],
+    metrics: 'Coordinated lease tracking and renewals covering 150+ properties',
+    architectureDetails: 'Features clear relational listings layouts, booking matrices representing inspections days, and asynchronous ticketing queues for property maintenance.',
+    features: [
+      'Interactive geo-filtering maps highlighting premium developments.',
+      'Automated lease-scheduler calculations flagging items 60 days near expiration.',
+      'Tenant issue dispatch gates linking tenants instantly to plumbing/electrical repair.',
+      'Unified property valuation estimates matching local market index feeds.',
+    ],
+    thumbnailColor: 'from-blue-600 to-indigo-950',
+  },
+  {
+    id: 'zally-laundry-care',
+    title: 'Zally Laundry Services Platform',
+    description: 'A pickup-to-delivery logistics tracker routing laundry workloads, cleaning process milestones and automated customer notification updates.',
+    category: 'DevOps & Cloud',
+    tags: ['Route Logistics', 'Cleaning Stages', 'WhatsApp API', 'Schedules'],
+    metrics: 'Achieved 24-hour SLA turnarounds on 95% of active wash orders',
+    architectureDetails: 'A state machine engine routing orders strictly through pickup, categorization, cleaning, quality check, and finalized home delivery states.',
+    features: [
+      'Customer scheduling calendar matching active drivers to delivery routes.',
+      'Interactive progress tracker with clean visual stage badges.',
+      'Integrated chemical selection and fabric-weight tracking logs.',
+      'Direct dispatch of WhatsApp notifications keeping customers fully alert.',
+    ],
+    thumbnailColor: 'from-sky-600 to-indigo-950',
+  },
+  {
+    id: 'zally-glam-beauty',
+    title: 'Zally Glam & Beauty Experience',
+    description: 'An aesthetic styling reservation system providing live appointment booking locks, styles catalog displays, and client booking confirmations for high-end beauty operations.',
+    category: 'Frontend',
+    tags: ['Styling Grid', 'Booking Calendars', 'Aesthetics UI', 'Tailwind CSS'],
+    metrics: 'Achieved 100% reservation double-entry avoidance via client lock pools',
+    architectureDetails: 'High-contrast, elegant aesthetic grid designed with expansive frame gaps, touch targets, and visual catalogs showing styling and makeups results.',
+    features: [
+      'Aesthetic lookbook grid presenting styling portfolios with micro-fade transitions.',
+      'Instant calendar time-slot booking engine with clean validations.',
+      'Custom stylists profile sliders showcasing specialties.',
+      'Direct automated SMS reminders triggering 2 hours prior to styling sessions.',
+    ],
+    thumbnailColor: 'from-pink-600 to-indigo-950',
+  },
+  {
+    id: 'zally-precision-farms',
+    title: 'Zally Precision Farm Management',
+    description: 'A cloud-ready core agriculture tracker tracking seasonal yield metrics, livestock profiles, grain/feed silo levels, and Idanre farm operations records.',
+    category: 'AI & Data Engineering',
+    tags: ['Agri-Analytics', 'Livestock Trace', 'Stocks Tracking', 'Soil Forecasts'],
+    metrics: 'Correctly forecasted seasonal maize and cocoa outputs within 3.5% error margin',
+    architectureDetails: 'Uses chronological visualizers and inventory schedules checking farm materials levels versus active animal feed allocations.',
+    features: [
+      'Crop seasonal forecast models incorporating local rainfall cycles.',
+      'Livestock medical and nutritional logs tracing individual batches.',
+      'Silo and warehouse stock threshold alerts flagging crucial reorder points.',
+      'Precision soil analysis inputs recommending fertilizer ratios.',
+    ],
+    thumbnailColor: 'from-emerald-600 to-indigo-950',
+  },
+];
+
+export const timelineData: TimelineItem[] = [
+  {
+    id: 'work-1',
+    type: 'experience',
+    title: 'IT Analyst / Systems Intern',
+    organization: 'Airtel Network (IT Department)',
+    location: 'Nigeria (Enterprise Head Office / Regional Hubs)',
+    period: '2025',
+    description: [
+      'Supported core telecommunication server infrastructures, hardware terminals diagnostic trace layers, and local network diagnostics.',
+      'Managed IT support desks, diagnosing hardware constraints, database queries bottlenecks, and standard staff system allocations.',
+      'Streamlined routing pathways for intranet communications, achieving higher uptime across regional team interfaces.',
+    ],
+    technologies: ['Systems Diagnostics', 'Network Routing', 'IT Infrastructure', 'Technical Troubleshooting'],
+  },
+  {
+    id: 'corp-1',
+    type: 'experience',
+    title: 'Founder & Managing Director',
+    organization: 'Zally Enterprises (Multi-Industry Business Ecosystem)',
+    location: 'Akure / Idanre, Ondo State, Nigeria',
+    period: '2023 - Present',
+    description: [
+      'Established Zally Enterprises, a high-growth brand coordinating Web Development, Gourmet Coffee, Real Estate, Farm Management, Entertainment/Artist Promotion, Beauty, and Laundry services.',
+      'Built and deployed digital portals syncing physical agriculture stocks, properties rent schedules, and beauty styling bookings directly to cloud dashboards.',
+      'Managed regional client relations, contract negotiations, agro-supply chain integrations, and laundry service logistical delivery pools.',
+    ],
+    technologies: ['React.js', 'Tailwind CSS', 'Logistics Management', 'Brand Strategy', 'Enterprise Planning'],
+  },
+  {
+    id: 'edu-1',
+    type: 'education',
+    title: 'National Diploma (ND) in Computer Science',
+    organization: 'Federal Polytechnic Ilaro',
+    location: 'Ilaro, Ogun State, Nigeria',
+    period: '2024 - 2026',
+    description: [
+      'Currently pursuing a foundational National Diploma, specializing in advanced algorithms, programming structures, database administration, and hardware interfaces.',
+      'Active participant in engineering code groups, applying theoretical network and system paradigms directly to private enterprise offerings.',
+    ],
+  },
+  {
+    id: 'edu-2',
+    type: 'education',
+    title: 'Professional Web Software Engineer Certificate',
+    organization: 'Sabi Programmers',
+    location: 'Akure, Ondo State, Nigeria',
+    period: '2023 - 2024',
+    description: [
+      'Enrolled in severe immersive coding regimes specializing in Full-Stack Web Development, frontend components, Node.js REST controllers, and responsive styling systems.',
+      'Engineered extensive prototype interfaces, managing local client-side states, asynchronous API integrations, and developer tooling integrations.',
+    ],
+  },
+];
